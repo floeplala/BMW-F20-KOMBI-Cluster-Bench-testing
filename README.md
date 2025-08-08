@@ -11,6 +11,6 @@ How does this project work? Make a Arduino IDE project from the supplied ino-fil
 
 Of course you don't have to use the same board that I used, or even a board at all. You can just have a look at the ino-file and use this as a source for your own project.
 
-The instrument cluster needs a continuous flow of CAB bus data, otherwise it will turn off quite quickly. Furthermore, it needs some reassuring messages from other modules, otherwise all kinds of warnings will appear. I used dumps from the CAN bus of my own car (BMW F45) to gather most of the needed data to get it going.  
+The instrument cluster needs a continuous flow of CAB bus data, otherwise it will turn off quite quickly. Furthermore, it needs some reassuring messages from other modules, otherwise all kinds of warnings will appear. I used dumps from the CAN bus of my own car (BMW F45) to gather most of the needed data to get it going. Also, LoopBunny placed a lot of useful information about CAN bus frames on his website (thanks!): https://loopybunny.co.uk/CarPC/k_can.html
 
 There is a lot to improve and also a lot more to tell, but this should be a nice start. Feel free to comment or ask some questions. I am always interested in similar projects from other people.
